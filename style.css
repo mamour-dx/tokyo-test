@@ -1,14 +1,14 @@
+
 .light-theme {
     background-color: #f7f7fc;
     opacity: 0.8;
     background-image: radial-gradient(#db6077 1.2000000000000002px, #f7f7fc 1.2000000000000002px);
     background-size: 24px 24px;
 }
-.dark-thme{
+.dark-theme{
     background-color: #020203;
-opacity: 0.8;
-background-image: radial-gradient(#db6077 1.2000000000000002px, #020203 1.2000000000000002px);
-background-size: 24px 24px;
+    opacity: 0.8;
+    background-image: radial-gradient(#db6077 1.2000000000000002px, #020203 1.2000000000000002px);
+    background-size: 24px 24px;
 }
-
 
