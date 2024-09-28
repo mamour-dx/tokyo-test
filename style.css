@@ -17,9 +17,14 @@ nav {
 }
 
 .title h1 {
-    font-size: 24px;
+    font-size: 32px;
     color: #ff0000;
     margin: 0;
+    
+}
+.title {
+    display: flex;
+    align-items: center;
 }
 
 nav .navigation {
@@ -33,9 +38,13 @@ nav .navigation li a {
     text-decoration: none;
     font-weight: bold;
 }
+.navigation a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
 
 nav .logo {
-    width: 50px;
+    width: 90px;
     height: auto;
 }
 
@@ -43,8 +52,10 @@ nav .logo {
 .main-section {
     display: flex;
     justify-content: space-between;
-    padding: 100px 10%;
+    padding: 60px 10%;
     background-color: #f0f0f0;
+    margin: 0;
+    font-size: larger;
 }
 
 .content-left {
@@ -71,13 +82,37 @@ nav .logo {
 
 .content-right {
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mascot {
-    width: 100%;
+    width: 400px; 
+    height: 410px;
+    animation: float 5s ease-in-out infinite;
+    transition: transform 0.3s ease;
 }
 
-/* Links Section */
+/* Hover effect */
+.mascot:hover {
+    transform: scale(1.05);
+}
+
+/* Keyframes for the floating motion */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Slight upward movement */
+    }
+    100% {
+        transform: translateY(0); /* Back to original position */
+    }
+}
+
+
 /* Links Section */
 .links-section {
     padding: 50px 10%;
