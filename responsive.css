@@ -109,6 +109,9 @@
         width: 80%;
         height: auto;
     }
+    .header {
+        flex-direction: column;
+    }
 }
 
 /* Desktop Adjustments */
