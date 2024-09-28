@@ -124,6 +124,7 @@ nav .logo {
     padding: 50px 10%;
     background-color: #fff;
     text-align: center;
+    
 }
 
 .links-section h2 {
@@ -250,6 +251,9 @@ nav .logo {
     padding: 50px 10%;
     background-color: #fff;
     text-align: center;
+    background-color: #ffffff;
+    background-image: radial-gradient(#f10808 1px, #ffffff 1px);
+    background-size: 20px 20px;
 }
 
 .contact-section form {
