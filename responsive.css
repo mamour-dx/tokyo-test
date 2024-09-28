@@ -1,0 +1,136 @@
+/* responsive.css */
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    nav {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 1em;
+    }
+    nav .title {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    nav .navigation {
+        display: none;
+    }
+
+
+
+    .main-section {
+        margin: 14px;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center; 
+        height: 400px; 
+        overflow: hidden; 
+        position: relative; 
+        gap: -10px;
+
+    }
+    
+    .mascot {
+        width: 80%; 
+        height: auto;
+        margin: 0 auto; 
+        position: relative; 
+    }
+    .content-left, .content-right {
+        width: 100%;
+    }
+
+    .content-left h2 {
+        font-size: 28px;
+    }
+
+    .content-left p {
+        font-size: 16px;
+    }
+    .cta-btn {
+        display: none;
+    }
+
+
+    .links-section h2 {
+        font-size: 28px;
+    }
+
+    .links-section .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .coming-soon-section .mockup {
+        width: 90%;
+        height: 100%; 
+    }
+    
+
+    .contact-section input {
+        width: 80%; /* Reduce input field width */
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    nav .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main-section {
+        flex-direction: column;
+        padding: 40px 5%;
+        text-align: center;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .coming-soon-section .mockup {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* Desktop Adjustments */
+@media (max-width: 1024px) {
+    .main-section {
+        padding: 50px 5%;
+    }
+
+    .links-section h2 {
+        font-size: 30px;
+    }
+
+    .links-section .card {
+        width: 65%; /* Adjust card width for larger screens */
+    }
+
+    .coming-soon-section .mockup {
+        width: 70%;
+        height: auto; /* Ensure responsive height */
+    }
+
+    .contact-section input {
+        width: 60%; /* Adjust input width for better visibility */
+    }
+}
