@@ -10,27 +10,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="light-theme">
+<body>
+    <!-- Navigation Bar -->
     <nav>
         <div class="title">
             <h1>Tokyo Test</h1>
-            <img src="assets/logo.png" alt="logo">
+            <img src="assets/logo.png" alt="logo" class="logo">
         </div>
         <div>
-            <ul>
+            <ul class="navigation">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#links">Links</a></li>
                 <li><a href="#app">App</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
-       
-
-
     </nav>
-    <section>
-        <img src="assets/mockup.png" alt="mockup">
 
+    <!-- Main Section -->
+    <section id="home" class="main-section">
+        <div class="content-left">
+            <h2>Welcome to Tokyo Test</h2>
+            <p>Your trusted app for efficiency and success. Discover everything we have to offer.</p>
+            <a href="#app" class="cta-btn">Learn More</a>
+        </div>
+        <div class="content-right">
+            <img src="assets/mascot.png" alt="Tokyo Test Mascot" class="mascot">
+        </div>
     </section>
+
+    <!-- Links Section -->
+    <section id="links" class="links-section">
+        <h2>Important Links</h2>
+        <div class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="assets/link1.png" alt="Link 1">
+                <h3>Our Website</h3>
+                <p>Visit our website to explore more about Tokyo Test and our latest updates.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="assets/link2.png" alt="Link 2">
+                <h3>GitHub</h3>
+                <p>Check out our GitHub repository for the latest code and collaboration.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="assets/link3.png" alt="Link 3">
+                <h3>Documentation</h3>
+                <p>Access the official documentation for in-depth guides and resources.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Coming Soon Section -->
+    <section id="app" class="coming-soon-section">
+        <h2>Coming Soon on the App Store</h2>
+        <p>Our app will be available soon! Stay tuned for updates.</p>
+        <img src="assets/appstore.png" alt="App Store Coming Soon">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="email">Subscribe to our Newsletter</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p>Or email us at <a href="mailto:support@tokyotest.com">support@tokyotest.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tokyo Test. All rights reserved.</p>
+    </footer>
 </body>
 </html>
