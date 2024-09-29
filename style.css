@@ -127,7 +127,6 @@ nav .logo {
     padding: 50px 10%;
     background-color: #fff;
     text-align: center;
-    
 }
 
 .links-section h2 {
@@ -157,8 +156,7 @@ nav .logo {
     border-radius: 15px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Softer shadow */
-    backdrop-filter: blur(10px); /* Glass effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     overflow: hidden;
     position: relative;
