@@ -14,7 +14,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #c5c5c5;
+    background-color: #e9e9e9f7;
     padding: 1em 2em;
     color: #fff;
 }
@@ -47,10 +47,10 @@ nav .navigation li a {
 }
 
 nav .logo {
-    width: 90px;
+    width: 110px;
     height: auto;
-    /*Make shodow behing the logo*/
-    filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0px 5px 25px rgba(0, 0, 0, 0.967));
+    margin-bottom: 0;
 }
 
 /* Main Section */
@@ -185,7 +185,7 @@ nav .logo {
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    background: rgba(255, 0, 0, 0.2); /* Slightly more opaque on hover */
+    background: rgba(255, 0, 0, 0.2);
 }
 .card img {
     width: 100px;
