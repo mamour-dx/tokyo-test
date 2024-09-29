@@ -279,8 +279,21 @@ nav .logo {
     color: #fff;
     border: none;
     border-radius: 5px;
+    width: 165px;
+    height: 45px;
+    box-shadow: #000 2px 2px 10px;
+    transition: 0.3s ease;
+}
+.contact-section button:hover {
+    background-color: #ff3333;
+    transform: scale(1.1);
+
 }
 
+#contact p a {
+    text-decoration: none;
+    color: #ff0000;
+}
 footer {
     background-color: #000;
     background-color: #c5c5c5;
