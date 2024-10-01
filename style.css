@@ -40,6 +40,7 @@ nav .navigation li a {
     color: #000;
     text-decoration: none;
     font-weight: bold;
+    text-decoration: underline;
 }
 .navigation a:hover {
     color: #ff0000;
@@ -96,8 +97,8 @@ nav .logo {
 }
 
 .mascot {
-    width: 400px; 
-    height: 410px;
+    width: 480px; 
+    height: 480px;
     animation: float 5s ease-in-out infinite;
     transition: transform 0.3s ease;
     transform: scale(1.3);
@@ -150,6 +151,7 @@ nav .logo {
 }
 
 .card {
+    transition: zoomin 0.5s ease-in-out;
     width: 250px;
     background: rgba(255, 0, 0, 0.15); /* More transparent red */
     border: 2px solid rgba(255, 0, 0, 0.4); /* Transparent red border */
@@ -256,7 +258,10 @@ nav .logo {
     background-image: radial-gradient(#f10808 1px, #ffffff 1px);
     background-size: 20px 20px;
 }
-
+.mailto {
+    text-decoration: underline;
+    color: red;
+}
 .contact-section form {
     display: flex;
     flex-direction: column;
@@ -299,6 +304,31 @@ footer {
     padding: 20px;
 }
 footer a {
-    text-decoration: none;
+    text-decoration: underline;
     color: red;
+}
+
+/*Animation zoom in effect*/
+.zoom-in1 {
+    animation: zoomIn 0.8s ease-in-out forwards;
+}
+.zoom-in2 {
+    animation: zoomIn 1.2s ease-in-out forwards;
+}
+.zoom-in3 {
+    animation: zoomIn 1.6s ease-in-out forwards;
+}
+.zoom-in-effect.visible {
+    opacity: 1; /* Rendre visible */
+    transform: scale(1); /* Zoomer */
+}
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
