@@ -13,10 +13,53 @@
 
   <body class="font-sans bg-white text-gray-800">
     <!-- Navigation Bar -->
-    <div class="flex justify-center items-center py-5 px-8">
-      <div class="text-xl font-bold text-center">
-        <img src="assets/logo.png" alt="Tokyo Test Logo" class="w-32 mb-2" />
-        <h2 class="text-3xl font-bold text-red-600">TokyoTest</h2>
+    <div
+      class="flex flex-col md:flex-row justify-between items-center py-10 px-8 max-w-7xl mx-auto"
+    >
+      <div class="md:w-1/2 text-left mb-8 md:mb-0 md:pr-8">
+        <div class="flex justify-center md:justify-start">
+          <img src="assets/logo.png" alt="Tokyo Test Logo" class="w-32 mb-2" />
+        </div>
+        <h2
+          class="text-3xl font-bold text-red-600 mb-4 text-center md:text-start"
+        >
+          TokyoTest
+        </h2>
+        <p class="text-xl text-gray-700 text-center md:text-start">
+          Interactive and engaging quizzes to learn Japanese at your own pace.
+          Perfect for beginners and pros alike!
+        </p>
+        <div class="flex flex-col sm:flex-row mt-8 items-center gap-3 md:gap-6">
+          <!-- Apple Store -->
+          <a
+            href="#"
+            class="flex items-center space-x-3 bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            <i class="fab fa-apple text-3xl"></i>
+            <div class="text-left">
+              <div class="text-xs">Download on the</div>
+              <div class="text-xl font-semibold">App Store</div>
+            </div>
+          </a>
+          <!-- Play Store -->
+          <a
+            href="#"
+            class="flex items-center space-x-3 bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            <i class="fab fa-google-play text-3xl"></i>
+            <div class="text-left">
+              <div class="text-xs">Get it on</div>
+              <div class="text-xl font-semibold">Google Play</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <img
+          src="assets/screenshots.png"
+          alt="App Screenshot"
+          class="w-full max-w-2xl rounded-2xl"
+        />
       </div>
     </div>
 
@@ -30,8 +73,9 @@
           Master Japanese with Fun Quizzes
         </h1>
         <p class="text-xl mb-6">
-          Interactive and engaging quizzes to learn Japanese at your own pace.
-          Perfect for beginners and pros alike!
+          Discover Japanese through exciting, interactive quiz-based lessons.
+          Whether you're just starting out or advanced, there's something for
+          everyone!
         </p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 mb-8">
           <div class="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
@@ -108,39 +152,6 @@
 
     <!-- App Section -->
     <section id="app" class="py-20 px-8 text-center bg-white">
-      <h2 class="text-3xl font-bold mb-6">Download Our App</h2>
-      <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-        Experience Japanese learning on the go! Download our mobile app for a
-        seamless learning experience with offline access and exclusive features.
-      </p>
-      <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
-        <!-- Apple Store -->
-        <a
-          href="#"
-          class="flex items-center space-x-3 bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl"
-        >
-          <i class="fab fa-apple text-3xl"></i>
-          <div class="text-left">
-            <div class="text-xs">Download on the</div>
-            <div class="text-xl font-semibold">App Store</div>
-          </div>
-        </a>
-        <!-- Play Store -->
-        <a
-          href="#"
-          class="flex items-center space-x-3 bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl"
-        >
-          <i class="fab fa-google-play text-3xl"></i>
-          <div class="text-left">
-            <div class="text-xs">Get it on</div>
-            <div class="text-xl font-semibold">Google Play</div>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 px-8 bg-gray-100 text-center">
       <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
       <p class="text-xl mb-6">
         We’d love to hear from you. Reach out to us for questions, suggestions,
