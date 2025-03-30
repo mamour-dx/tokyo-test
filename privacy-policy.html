@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Privacy Policy - Tokyo Test</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <style>
+      .back-button {
+        transform: translateX(-100%);
+        animation: slideIn 0.5s ease forwards;
+      }
+      @keyframes slideIn {
+        to { transform: translateX(0); }
+      }
+    </style>
   </head>
 
   <body class="font-sans bg-white text-gray-800">
@@ -125,5 +135,8 @@
     <footer class="py-4 px-8 text-center bg-gray-200">
       <p>&copy; 2025 Tokyo Test. All rights reserved.</p>
     </footer>
+    <a href="index.html" class="back-button fixed bottom-8 left-8 bg-red-600 text-white p-4 rounded-full shadow-lg hover:bg-red-700 hover:shadow-xl transition-all duration-300 group">
+      <i class="fas fa-arrow-left group-hover:scale-110 transition-transform"></i>
+    </a>
   </body>
 </html>
